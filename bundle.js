@@ -3,9 +3,6 @@
 
 var hdkeyring = require('eth-hd-keyring');
 
-//browserify index.js -t [ babelify --presets es2015 ] | uglifyjs > bundle.js
-//browserify index.js -t [ babelify --presets es2015 ]  > bundle.js
-
 },{"eth-hd-keyring":38}],2:[function(require,module,exports){
 // base-x encoding
 // Forked from https://github.com/cryptocoinjs/bs58
