@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify index.js -o eth-hd-keyring.js -t [ babelify --presets [ es2015 ] ] ",
-    "buildmin": "browserify index.js -t [ babelify --presets [ es2015 ] ] | uglifyjs > eth-hd-keyring.min.js"
+    "build": "browserify --standalone index.js -o eth-hd-keyring.js -t [ babelify --presets [ es2015 ] ] ",
+    "buildmin": "browserify --standalone index.js -t [ babelify --presets [ es2015 ] ] | uglifyjs > eth-hd-keyring.min.js"
   },
   "repository": {
     "type": "git",
