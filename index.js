@@ -1,1 +1,3 @@
-var hdkeyring = require('eth-hd-keyring')
+module.exports = {
+  HdKeyring: require('eth-hd-keyring'),
+}
